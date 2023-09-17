@@ -1,0 +1,27 @@
+#card {
+    display: grid;
+    width: 800px;
+    height: 1300px;
+    box-shadow: 10px 10px 10px 10px gray;
+    grid-template-columns: repeat(auto-fit, minmax(400px 1fr));
+    /* background-color: red; */
+    text-align: center;
+    /* object-fit: contain; */
+    transition: 0.3s;
+}
+
+
+@media (max-width: 823.20px) {
+
+    #card {
+        display: grid;
+        width: 700px;
+        height: 1200px;
+        box-shadow: 10px 10px 10px 10px gray;
+        grid-template-columns: repeat(auto-fit, minmax(400px 1fr));
+        /* background-color: red; */
+        text-align: center;
+        transition: 0.3s;
+
+    }
+}
